@@ -3,6 +3,7 @@ git add file.name : add a new file into repository.
 git commit -m "commit message" : commit all files with commit message.
 git status : see the status of git.
 git diff file.name :view the diff of the file.
+git diff HEAD -- readme.txt : 命令可以查看工作区和版本库里面最新版本的区别
 git log : view the log.
 git reflog : view the all log.
 git reset --hard HEAD^ : reset the last.
