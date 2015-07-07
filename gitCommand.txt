@@ -3,7 +3,11 @@ git add file.name : add a new file into repository.
 git commit -m "commit message" : commit all files with commit message.
 git status : see the status of git.
 git diff file.name :view the diff of the file.
-git diff HEAD -- readme.txt : 用git diff HEAD -- readme.txt命令可以查看工作区和版本库里面最新版本的区别
+git diff HEAD -- file : 查看工作区和版本库里面最新版本的区别
+git checkout -- file : 丢弃工作区的修改
+git reset HEAD file : 把暂存区的修改撤销掉（unstage）
 git log : view the log.
 git reflog : view the all log.
 git reset --hard HEAD^ : reset the last.
+git rm file : 删除一个文件
+ssh-keygen -t rsa -C "youremail@example.com" : 创建ssh Key
