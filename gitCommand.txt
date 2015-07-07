@@ -1,0 +1,3 @@
+git init : init a new repository.
+git add file.name : add a new file into repository.
+git commit -m "commit message" : commit all files with commit message.
