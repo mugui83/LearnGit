@@ -11,3 +11,17 @@ git reflog : view the all log.
 git reset --hard HEAD^ : reset the last.
 git rm file : 删除一个文件
 ssh-keygen -t rsa -C "youremail@example.com" : 创建ssh Key
+
+echo # LearnGit >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/mugui83/LearnGit.git
+git push -u origin master
+
+push an existing repository from the command line
+git remote add origin https://github.com/mugui83/LearnGit.git
+git push -u origin master
+git push origin master
+
+git clone https://github.com/mugui83/GitSkills.git
